@@ -57,6 +57,7 @@
   .social a:hover { border-color:var(--gold); color:var(--gold); }
   footer { text-align:center; padding:34px; color:var(--muted); font-size:.85rem; border-top:1px solid #26262e; }
   @media (max-width:720px){ .grid2{grid-template-columns:1fr;} nav ul{gap:14px;} }
+  .hero-photo { display:block; width:210px; height:210px; border-radius:50%; object-fit:cover; object-position:50% 20%; border:4px solid #ffbd39; box-shadow:0 14px 44px rgba(0,0,0,.55); margin-bottom:26px; }
 </style>
 </head>
 <body>
@@ -76,7 +77,8 @@
 
 <header class="hero" id="home">
   <div class="container">
-    <p class="sub">Hello! I'm</p>
+    <img class="hero-photo" src="profile.jpg" alt="Rambabu Dhanavath — Senior Software Engineer">
+   <p class="sub">Hello! I'm</p>
     <h1>Rambabu <span>Dhanavath</span></h1>
     <div id="typing"></div>
     <p class="sub">Senior Software Engineer · Java / Spring Boot · Microservices · Kafka · AWS · React<br>Fort Wayne, Indiana — open to remote &amp; hybrid roles</p>
